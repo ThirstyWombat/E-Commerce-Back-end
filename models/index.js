@@ -18,12 +18,11 @@ Product.belongsTo(Category, {
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
-  // Define the third table needed to store the foreign keys
   through: {
     model: ProductTag,
     unique: false,
   },
-  // Define an alias for when data is retrieved
+
   as: "tags",
 });
 // Tags belongToMany Products (through ProductTag)
@@ -33,7 +32,7 @@ Tag.belongsToMany(Product, {
     unique: false,
   },
 
-  as: "placeholder2",
+  as: "products",
 });
 
 module.exports = {
