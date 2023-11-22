@@ -3,7 +3,9 @@
 ![Screenshot 2023-11-21 180224](https://github.com/ThirstyWombat/E-Commerce-Back-end/assets/122827259/7050d376-fd65-4581-8ea6-8d4701885191)
 
 ## Demo
-<a href="https://drive.google.com/file/d/16Ct1nJMP7v91h2Mq8JZdFq964E0nr4tG/view">Demo Video</a>
+
+<a href="https://drive.google.com/file/d/16Ct1nJMP7v91h2Mq8JZdFq964E0nr4tG/view">Demonstration Video</a>
+
 ## Description
 
 This repository contains the back end code for an e-commerce site, including the database information and routes for querying the database.
